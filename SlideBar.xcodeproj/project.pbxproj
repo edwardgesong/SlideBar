@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA600EB71B6C2AEA009CED11 /* UIColor+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = BA600EB61B6C2AEA009CED11 /* UIColor+FlatUI.m */; };
 		BA624F951B66995000865E6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA624F941B66995000865E6B /* main.m */; };
 		BA624F981B66995000865E6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA624F971B66995000865E6B /* AppDelegate.m */; };
 		BA624F9B1B66995000865E6B /* SlideBar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA624F991B66995000865E6B /* SlideBar.xcdatamodeld */; };
@@ -15,6 +16,7 @@
 		BA624FA31B66995000865E6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA624FA21B66995000865E6B /* Images.xcassets */; };
 		BA624FA61B66995000865E6B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA624FA41B66995000865E6B /* LaunchScreen.xib */; };
 		BA624FB21B66995100865E6B /* SlideBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA624FB11B66995100865E6B /* SlideBarTests.m */; };
+		BA624FBD1B66CD7000865E6B /* SlideBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA624FBC1B66CD7000865E6B /* SlideBarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA600EB51B6C2AEA009CED11 /* UIColor+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatUI.h"; sourceTree = "<group>"; };
+		BA600EB61B6C2AEA009CED11 /* UIColor+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatUI.m"; sourceTree = "<group>"; };
 		BA624F8F1B66995000865E6B /* SlideBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA624F931B66995000865E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA624F941B66995000865E6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +46,8 @@
 		BA624FAB1B66995100865E6B /* SlideBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA624FB01B66995100865E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA624FB11B66995100865E6B /* SlideBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideBarTests.m; sourceTree = "<group>"; };
+		BA624FBB1B66CD7000865E6B /* SlideBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideBarView.h; sourceTree = "<group>"; };
+		BA624FBC1B66CD7000865E6B /* SlideBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideBarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,10 +93,14 @@
 				BA624F971B66995000865E6B /* AppDelegate.m */,
 				BA624F9C1B66995000865E6B /* ViewController.h */,
 				BA624F9D1B66995000865E6B /* ViewController.m */,
+				BA624FBB1B66CD7000865E6B /* SlideBarView.h */,
+				BA624FBC1B66CD7000865E6B /* SlideBarView.m */,
 				BA624F9F1B66995000865E6B /* Main.storyboard */,
 				BA624FA21B66995000865E6B /* Images.xcassets */,
 				BA624FA41B66995000865E6B /* LaunchScreen.xib */,
 				BA624F991B66995000865E6B /* SlideBar.xcdatamodeld */,
+				BA600EB51B6C2AEA009CED11 /* UIColor+FlatUI.h */,
+				BA600EB61B6C2AEA009CED11 /* UIColor+FlatUI.m */,
 				BA624F921B66995000865E6B /* Supporting Files */,
 			);
 			path = SlideBar;
@@ -223,6 +233,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA624F9B1B66995000865E6B /* SlideBar.xcdatamodeld in Sources */,
+				BA624FBD1B66CD7000865E6B /* SlideBarView.m in Sources */,
+				BA600EB71B6C2AEA009CED11 /* UIColor+FlatUI.m in Sources */,
 				BA624F981B66995000865E6B /* AppDelegate.m in Sources */,
 				BA624F9E1B66995000865E6B /* ViewController.m in Sources */,
 				BA624F951B66995000865E6B /* main.m in Sources */,
@@ -420,6 +432,7 @@
 				BA624FB71B66995100865E6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA624FB81B66995100865E6B /* Build configuration list for PBXNativeTarget "SlideBarTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +441,7 @@
 				BA624FBA1B66995100865E6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
